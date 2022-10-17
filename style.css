@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+body {
+ background-image: url(https://i.pinimg.com/736x/50/69/61/5069613b363dc9f5c0bc4c9824ab26b7--background-hd-wallpaper-wallpaper-pc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  
+
+
+}
+ .card-box {
+  background-color: rgb(255, 255, 255, 0.8);
+  margin-top: 15vh;
+  width: 50%;
+  display: flex;
+} 
+.card-box img {
+  width:100% ;
+  height:100%;
+
+  
+
+}
+.info {
+  width: 70%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.info h4 {
+  color: rgb(245, 23, 168, 0.9);
+  margin-bottom: 5%;
+}
+.title {
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+  font-weight: 300;
+  color: rgb(250, 205, 149);
+  line-height: 3.1rem;
+}
+.title span {
+  
+  color: black;
+}
+.info p {
+  padding: 2rem 0;
+}
+.email {
+  position: relative;
+  align-items: center;
+}
+.email input {
+    border: 1px solid gray;
+    border-radius: 11px;
+    width: 80%;
+    padding: 7px;
+
+}
+.email input::placeholder {
+      color: gray;
+      padding-left: 20px;
+  
+}
+.email svg {
+     background-color: rgb(239, 172, 194);
+     border-radius: 15px;
+     height: 41px;
+     width: 15%;
+     color: white;
+     translate: -25%;
+
+  
+}
+.email svg:hover {
+  background-color: rgb(212, 119, 150);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  color: white;
+  
+}
+.image img{
+    width: 100%;
+    height: 100%;
+  
+    
+}
+
+@media only screen and (max-width: 850px) {
+        .card-box{
+         flex-direction: column;
+          
+       }
+       .info{
+         padding-bottom: 20px;
+       }
+
+       .email svg{
+              width: 30%;
+       }
+       .email input{
+           width: 100%;
+       }
+  
+    
+}
+@media only screen and (max-height: 750px){
+   
+}
